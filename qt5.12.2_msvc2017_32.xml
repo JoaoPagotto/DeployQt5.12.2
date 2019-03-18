@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Written on seg mai 14 14:11:02 2018 by Qt Creator 4.8.0-->
+<externaltool id="msvc2017_32">
+    <description>Qt5.12.2 for msvc2017_32</description>
+    <displayname>Qt5.12.2 for msvc2017_32</displayname>
+    <category>Deploy</category>
+    <executable output="showinpane" error="showinpane" modifiesdocument="no">
+        <path>C:/Qt/5.12.2/qt5.12.2_msvc2017_32.bat</path>
+        <arguments>%{CurrentProject:NativePath} %{CurrentRun:Executable:NativePath} %{CurrentRun:Executable:FileName}</arguments>
+        <workingdirectory>C:/Qt/5.12.2</workingdirectory>
+    </executable>
+</externaltool>

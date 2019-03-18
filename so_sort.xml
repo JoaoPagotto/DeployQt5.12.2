@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<externaltool id="sort">
+    <description>Sorts the selected text</description>
+    <description xml:lang="de">Sortiert den ausgewaehlten Text</description>
+    <displayname>Sort Selection</displayname>
+    <displayname xml:lang="de">Auswahl Sortieren</displayname>
+    <category>Text</category>
+    <category xml:lang="de">Text</category>
+    <executable output="replaceselection" error="ignore">
+        <path>sort</path>
+        <input>%{CurrentDocument:Selection}</input>
+        <workingdirectory>%{CurrentDocument:Path}</workingdirectory>
+    </executable>
+</externaltool>
