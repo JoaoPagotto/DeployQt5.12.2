@@ -17,4 +17,4 @@ SET arqOut=%~3
 
 md "%dirOut%"
 copy /y "%arqInp%" "%dirOut%\%arqOut%"
-"%tool%" --no-translations --dir "%dirOut%" "%dirOut%\%arqOut%"
+"%tool%" --no-translations --dir "%dirOut%" --qmldir "%~1" "%dirOut%\%arqOut%"
